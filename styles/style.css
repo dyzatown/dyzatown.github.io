@@ -1,0 +1,190 @@
+/* Start Body */
+body {
+    color: #483C32;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body*/
+
+/* Start Debug */
+.bg-beige {
+    background-color: #F5F5DC;   
+}
+.bg-tanbrown {
+    background-color: #ECE5B6;
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Anchor / Hyperlink */
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: #966F33;
+    text-decoration: underline;
+}
+/* End Anchor / Hyperlink */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: #DEB887;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0,0,0,.2),
+        0 6px 10px 0px rgba(0,0,0,.14),
+        0 1px 18px 0px rgba(0,0,0,.12);
+}
+
+.menu-primer li {
+    border-right: 1px solid #966F33;   
+    display: inline-block;  
+    margin: 0 - 4px;
+}
+
+.menu-primer a {
+    color: black;
+    font-size: 18px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    /* text-transform: uppercase; */
+}
+
+.menu-primer a:hover {
+    background-color: whitesmoke;
+    /* color: white; */
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+/* End Menu Primer */
+
+/* Start Jumbotron */
+.heading h1 {
+    text-align: center;
+    font-family: Times New Roman, serif;
+    font-style: italic;
+    color: #A52A2A;
+}
+
+.heading h3 {
+    text-align: center;
+    font-family: Arial Narrow, sans-serif;
+    color:#A52A2A;
+}
+
+/* Start JS */
+.js {
+    display: inline-block;
+
+@import url(https://fonts.googleapis.com/css?family=Yeseva+One);
+@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans);
+}
+.snip1345 {
+  font-family: 'Merriweather Sans', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.4em;
+  font-size: 16px;
+  transform: translateZ(0);
+}
+.snip1345:before {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 85%;
+  background-image: -webkit-linear-gradient(top, transparent 0%, #000000 85%);
+  background-image: linear-gradient(to bottom, transparent 0%, #000000 85%);
+}
+.snip1345 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1345 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1345 .inside {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  border: 20px solid #000000;
+  box-shadow: 0px 0px 3px 19px rgba(0, 0, 0, 0.5);
+}
+.snip1345 figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+.snip1345 h3,
+.snip1345 p {
+  margin: 0 0 10px;
+}
+.snip1345 h3 {
+  font-size: 1.3em;
+  font-family: 'Yeseva One', Arial, sans-serif;
+}
+.snip1345 p {
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  opacity: 0.75;
+}
+.snip1345 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1345:hover .inside,
+.snip1345.hover .inside {
+  box-shadow: 0px 0px 3px 19px rgba(0, 0, 0, 0);
+}
+/* End JS */
+
